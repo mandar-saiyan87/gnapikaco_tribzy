@@ -7,9 +7,9 @@ function Section2() {
   return (
     <>
       <div className='flex flex-col gap-y-3 px-3 my-5 md:flex md:flex-row md:items-center md:justify-center md:my-7 md:gap-x-5 lg:gap-x-12 lg:my-10 xl:gap-x-24'>
-        <div className='text-white text-xs flex items-center justify-end gap-x-1 cursor-pointer'>
+        <div className='text-white text-xs flex items-center justify-end gap-x-1 cursor-pointer lg:hidden'>
           <p>View all</p>
-          <MdChevronRight className='-mt-1' size={15}/>
+          <MdChevronRight className='-mt-1' size={15} />
         </div>
         {locations.map((location) => {
           return (
