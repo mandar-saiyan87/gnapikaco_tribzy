@@ -7,10 +7,10 @@ function Footer() {
     <>
       {/* Large Screen Footer */}
       <div className='hidden md:block w-full bg-footerbg px-14 py-10'>
-        <div className='flex items-start justify-start gap-x-[450px]'>
-          <div className='flex items-start justify-center gap-x-32'>
+        <div className='flex items-start justify-start xl:gap-x-[450px]'>
+          <div className='flex items-start justify-start gap-x-32'>
             {/* footer-1 */}
-            <div className='w-full max-w-[50%] flex flex-col gap-y-5'>
+            <div className='w-full max-w-[30%] flex flex-col gap-y-5 xl:max-w-[50%]'>
               <div className='w-full max-w-[140px]'>
                 <img src={appimages.footerlogo} alt="footerlogo" className='w-full h-full object-fill' />
               </div>
@@ -45,7 +45,7 @@ function Footer() {
           </div>
         </div>
         <hr className='border-[#E4E4E7] opacity-15 my-10' />
-        <div className='flex items-center justify-between'>
+        <div className='flex items-center flex-col gap-y-9 xl:flex-row xl:justify-between'>
           <div className='flex items-center justify-center text-sm text-footertext gap-x-9'>
             <p>Community Standards</p>
             <div className='h-5 border-[1px] border-[#CECECE]' />
@@ -60,11 +60,12 @@ function Footer() {
           </div>
         </div>
       </div>
+      {/* Mobile Footer */}
       <div className='w-full bg-footerbg flex flex-col py-8 px-5 gap-y-8 md:hidden'>
         <div className='flex items-start justify-between'>
           <div className='flex flex-col items-start justify-start gap-y-2'>
             <p className='text-xl font-medium text-footertext'>Quick Links</p>
-            <ul className='flex flex-col gap-y-2 text-base font-normal text-footertext'>
+            <ul className='flex flex-col gap-y-3 text-base font-normal text-footertext'>
               <li className='cursor-pointer'>Home</li>
               <li className='cursor-pointer'>About Us</li>
               <li className='cursor-pointer'>How It Works</li>
@@ -76,19 +77,19 @@ function Footer() {
           <div className='flex flex-col items-start justify-start gap-y-2'>
             <p className='text-xl font-medium text-footertext'>Follow Us</p>
             <ul className='flex flex-col gap-y-5 text-base font-normal text-footertext'>
-              <div className='flex text-base text-footertext gap-x-2'>
+              <div className='flex text-base text-footertext gap-x-2 cursor-pointer'>
                 <img src={appimages.twitter} alt="twitter" className='w-[18px]' />
                 <p>Twitter</p>
               </div>
-              <div className='flex text-base text-footertext gap-x-2'>
+              <div className='flex text-base text-footertext gap-x-2 cursor-pointer'>
                 <img src={appimages.instagrammobile} alt="twitter" className='w-[18px]' />
                 <p>Instagram</p>
               </div>
-              <div className='flex text-base text-footertext gap-x-2'>
+              <div className='flex text-base text-footertext gap-x-2 cursor-pointer'>
                 <img src={appimages.linkedin} alt="twitter" className='w-[18px]' />
                 <p>Linkedin</p>
               </div>
-              <div className='flex text-base text-footertext gap-x-2'>
+              <div className='flex text-base text-footertext gap-x-2 cursor-pointer'>
                 <img src={appimages.facebook} alt="twitter" className='w-[10px]' />
                 <p>Facebook</p>
               </div>
