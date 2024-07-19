@@ -65,7 +65,7 @@ function Footer() {
         <div className='flex items-start justify-between'>
           <div className='flex flex-col items-start justify-start gap-y-2'>
             <p className='text-xl font-medium text-footertext'>Quick Links</p>
-            <ul className='flex flex-col gap-y-3 text-base font-normal text-footertext'>
+            <ul className='flex flex-col gap-y-4 text-base font-normal text-footertext'>
               <li className='cursor-pointer'>Home</li>
               <li className='cursor-pointer'>About Us</li>
               <li className='cursor-pointer'>How It Works</li>
@@ -76,7 +76,7 @@ function Footer() {
           </div>
           <div className='flex flex-col items-start justify-start gap-y-2'>
             <p className='text-xl font-medium text-footertext'>Follow Us</p>
-            <ul className='flex flex-col gap-y-5 text-base font-normal text-footertext'>
+            <ul className='flex flex-col gap-y-6 text-base font-normal text-footertext'>
               <div className='flex text-base text-footertext gap-x-2 cursor-pointer'>
                 <img src={appimages.twitter} alt="twitter" className='w-[18px]' />
                 <p>Twitter</p>
