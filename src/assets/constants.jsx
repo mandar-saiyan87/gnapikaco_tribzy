@@ -8,6 +8,11 @@ import twitter from "./images/twitter.svg"
 import facebook from "./images/facebook.svg"
 import instagram from "./images/instagram.svg"
 import linkedin from "./images/linkedin.svg"
+import loginresp from "./images/loginresp.svg"
+import hamburgermenu from "./images/hamburgermenu.svg"
+import BLVDresp from "./images/BLVDresp.png"
+import stoneridgeresp from "./images/stoneridgeresp.png"
+import instagrammobile from "./images/instagrammobile.svg"
 
 export const appimages = {
   logomain,
@@ -17,7 +22,12 @@ export const appimages = {
   twitter,
   facebook,
   instagram,
-  linkedin
+  linkedin,
+  loginresp,
+  hamburgermenu,
+  BLVDresp,
+  stoneridgeresp,
+  instagrammobile
 }
 
 export const locations = [
@@ -25,13 +35,15 @@ export const locations = [
     id: 1,
     name: 'BLVD Gainesville',
     address: '4000 SW 37th Blvd, Gainesville, FL 32608',
-    image: blvd
+    image: blvd,
+    respimg: BLVDresp,
   },
   {
     id: 2,
     name: 'Stoneridge',
     address: '4000 SW 37th Blvd, Gainesville, FL 32608',
-    image: stoneridge
+    image: stoneridge,
+    respimg: stoneridgeresp
   }
 ]
 

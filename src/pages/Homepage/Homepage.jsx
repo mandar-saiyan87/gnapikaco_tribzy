@@ -5,7 +5,7 @@ import Section2 from './Sections/Section2'
 function Homepage() {
   return (
     <>
-      <div className='px-7 py-9'>
+      <div className='lg:px-7 lg:py-9'>
         <Section1 />
         <Section2 />
       </div>

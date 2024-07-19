@@ -5,15 +5,15 @@ import { locations } from '../../../assets/constants'
 function Section2() {
   return (
     <>
-      <div className='flex gap-x-24 my-10'>
+      <div className='flex flex-col gap-y-3 px-3 my-5 md:flex md:flex-row md:items-center md:justify-center gap-x-24 md:my-10'>
         {locations.map((location) => {
           return (
             <PropertyCard key={location.id} property={location} />
           )
         })}
       </div>
-      <div className='flex items-center justify-center'>
-        <button className='bg-sectext text-white py-3.5 px-[75px] rounded-2xl'>View More Communities</button>
+      <div className='flex items-center justify-center px-3 md:px-0'>
+        <button className='bg-sectext text-white py-2 w-full max-w-[400px] rounded-sm mb-10 md:py-3.5 md:rounded-2xl md:mb-0'>View More Communities</button>
       </div>
     </>
   )
