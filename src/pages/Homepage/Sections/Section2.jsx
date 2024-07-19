@@ -13,7 +13,7 @@ function Section2() {
         })}
       </div>
       <div className='flex items-center justify-center px-3 md:px-0'>
-        <button className='bg-sectext text-white py-2 w-full max-w-[400px] rounded-sm mb-10 md:py-3.5 md:rounded-2xl'>View More Communities</button>
+        <button className='bg-sectext text-white py-2 w-full max-w-[400px] rounded-sm mb-10 md:py-3.5 md:rounded-2xl active:opacity-75'>View More Communities</button>
       </div>
     </>
   )

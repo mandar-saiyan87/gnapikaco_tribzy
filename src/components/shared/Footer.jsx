@@ -11,7 +11,7 @@ function Footer() {
           <div className='flex items-start justify-start gap-x-32'>
             {/* footer-1 */}
             <div className='w-full max-w-[30%] flex flex-col gap-y-5 xl:max-w-[50%]'>
-              <div className='w-full max-w-[140px]'>
+              <div className='w-full max-w-[140px] cursor-pointer'>
                 <img src={appimages.footerlogo} alt="footerlogo" className='w-full h-full object-fill' />
               </div>
               <div>

@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <>
       <nav className='w-full flex justify-between relative'>
-        <div className='flex justify-between lg:w-[73%]'>
+        <div className='flex justify-between lg:w-[73%] cursor-pointer'>
           <img src={appimages.logomain} alt="applogo" className='w-24 ml-4 lg:w-32 lg:ml-10' />
           <ul className='hidden lg:flex items-center lg:gap-x-10 xl:gap-x-20 2xl:gap-x-24'>
             {navtabs.map((tab, index) => {
@@ -31,8 +31,8 @@ function Navbar() {
           </div>
         </div>
         <div className='hidden lg:flex gap-x-7 pl-5 pb-5 bg-mainbg'>
-          <button className='text-white py-3 px-6 border-white border-2 rounded-md text-sm leading-4'>Log in</button>
-          <button className='bg-sectext text-white py-3 px-6 rounded-md text-sm'>Sign up</button>
+          <button className='text-white py-3 px-6 border-white border-2 rounded-md text-sm leading-4 active:opacity-75'>Log in</button>
+          <button className='bg-sectext text-white py-3 px-6 rounded-md text-sm active:opacity-75'>Sign up</button>
         </div>
       </nav>
       {/* Mobile Navbar Modal */}
@@ -40,7 +40,7 @@ function Navbar() {
         <div className={mobilenav ? 'fixed h-full w-[65%] bg-white top-0 right-0 z-30 px-5 py-5 flex flex-col items-start justify-start md:w-[40%]' :
           'fixed -right-100 top-0'}>
           <div className='w-full justify_between'>
-            <div className='w-20'>
+            <div className='w-20 cursor-pointer'>
               <img src={appimages.logomain} alt="logo" className='w-full h-full object-fill' />
             </div>
             <AiFillCloseCircle size={20} onClick={() => setMobileNav(false)} />
