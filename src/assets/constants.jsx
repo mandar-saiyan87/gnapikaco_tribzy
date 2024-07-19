@@ -3,11 +3,21 @@ import herosvg from "./images/heroimg.svg"
 import heropng from "./images/heroimg.png"
 import blvd from "./images/BLVD.png"
 import stoneridge from "./images/stoneridge.png"
+import footerlogo from "./images/footerlogo.svg"
+import twitter from "./images/twitter.svg"
+import facebook from "./images/facebook.svg"
+import instagram from "./images/instagram.svg"
+import linkedin from "./images/linkedin.svg"
 
 export const appimages = {
   logomain,
   herosvg,
-  heropng
+  heropng,
+  footerlogo,
+  twitter,
+  facebook,
+  instagram,
+  linkedin
 }
 
 export const locations = [

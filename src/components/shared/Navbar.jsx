@@ -12,7 +12,7 @@ function Navbar() {
       <nav className='w-full flex justify-between'>
         <div className='w-[73%] flex justify-between'>
           <img src={appimages.logomain} alt="applogo" className='w-32 ml-10' />
-          <ul className='flex items-center gap-x-20'>
+          <ul className='flex items-center gap-x-24'>
             {navtabs.map((tab, index) => {
               return (
                 <li key={index} className={active === tab ? 'text-sm text-primetext font-bold cursor-pointer' : 'text-sm text-primetext cursor-pointer'} onClick={() => setActive(tab)}>{tab}</li>

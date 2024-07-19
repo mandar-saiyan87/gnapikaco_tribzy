@@ -11,10 +11,12 @@ export default {
         baloo: ["Baloo Da 2", "sans-serif"]
       },
       colors: {
-        mainbg: "#222222",
-        herobg: "#D1D4FF",
+        mainbg: "#000000",
+        herobg: "#D9D9D9",
         primetext: "#1B1B1B",
-        sectext: "#6427FF"
+        sectext: "#6427FF",
+        footerbg: "#222222",
+        footertext: "#EAEAEA"
       }
     },
   },
