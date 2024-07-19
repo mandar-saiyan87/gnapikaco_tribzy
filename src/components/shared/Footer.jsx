@@ -18,10 +18,10 @@ function Footer() {
                 <p className='text-footertext text-sm font-normal leading-7'>Your New Home And Community Await With Tribsy</p>
               </div>
               <div className='flex items-center justify-start gap-x-9'>
-                <img src={appimages.twitter} alt="twitter" className='w-4' />
-                <img src={appimages.facebook} alt="facebook" className='w-2' />
-                <img src={appimages.instagram} alt="instagram" className='w-4' />
-                <img src={appimages.linkedin} alt="linkedin" className='w-4' />
+                <img src={appimages.twitter} alt="twitter" className='w-4 cursor-pointer' />
+                <img src={appimages.facebook} alt="facebook" className='w-2 cursor-pointer' />
+                <img src={appimages.instagram} alt="instagram" className='w-4 cursor-pointer' />
+                <img src={appimages.linkedin} alt="linkedin" className='w-4 cursor-pointer' />
               </div>
             </div>
             {/* footer-2 */}
@@ -47,13 +47,13 @@ function Footer() {
         <hr className='border-[#E4E4E7] opacity-15 my-10' />
         <div className='flex items-center flex-col gap-y-9 xl:flex-row xl:justify-between'>
           <div className='flex items-center justify-center text-sm text-footertext gap-x-9'>
-            <p>Community Standards</p>
+            <p className='cursor-pointer'>Community Standards</p>
             <div className='h-5 border-[1px] border-[#CECECE]' />
-            <p>Privacy Policy</p>
+            <p className='cursor-pointer'>Privacy Policy</p>
             <div className='h-5 border-[1px] border-[#CECECE]' />
-            <p>Terms</p>
+            <p className='cursor-pointer'>Terms</p>
             <div className='h-5 border-[1px] border-[#CECECE]' />
-            <p>Cookie Policy</p>
+            <p className='cursor-pointer'>Cookie Policy</p>
           </div>
           <div className='flex items-center justify-center text-sm text-footertext'>
             <p>© 2024 Tribsy. All rights reserved.</p>
@@ -97,13 +97,13 @@ function Footer() {
           </div>
         </div>
         <div className='w-[85%] flex flex-wrap items-center justify-start text-xs text-footertext gap-x-5 leading-7'>
-          <p>Community Standards</p>
+          <p className='cursor-pointer'>Community Standards</p>
           <div className='h-4 border-[1px] border-[#CECECE]' />
-          <p>Privacy Policy</p>
+          <p className='cursor-pointer'>Privacy Policy</p>
           {/* <div className='h-4 border-[1px] border-[#CECECE]' /> */}
-          <p>Terms</p>
+          <p className='cursor-pointer'>Terms</p>
           <div className='h-4 border-[1px] border-[#CECECE]' />
-          <p>Cookie Policy</p>
+          <p className='cursor-pointer'>Cookie Policy</p>
         </div>
         <div className='flex items-center justify-center text-xs text-footertext'>
           <p>© 2024 Tribsy. All rights reserved.</p>
