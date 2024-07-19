@@ -26,7 +26,7 @@ function Navbar() {
           <div className='w-16'>
             <img src={appimages.loginresp} alt="loginresp" className='w-full h-full object-fill' />
           </div>
-          <div className='bg-mainbg rounded-bl-xl p-4' onClick={() => setMobileNav(true)}>
+          <div className='bg-mainbg rounded-bl-xl px-4 py-5' onClick={() => setMobileNav(true)}>
             <img src={appimages.hamburgermenu} alt="hmmenu" className='w-4' />
           </div>
         </div>
