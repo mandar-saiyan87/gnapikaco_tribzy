@@ -7,7 +7,7 @@ function Section1() {
     <div className='w-full max-w-[1848px] bg-herobg mx-auto'>
       <Navbar />
       <div className='flex flex-col-reverse my-10 md:gap-y-10 lg:justify_center lg:flex-row xl:gap-x-10'>
-        <div className='w-full max-w-[920px] px-12'>
+        <div className='w-full max-w-[920px] px-4 lg:px-12'>
           <img src={appimages.heropng} alt="heroimg" className='w-full h-full object-fill' />
         </div>
         <div className='flex flex-col items-center text-center'>
