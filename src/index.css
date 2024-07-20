@@ -11,6 +11,20 @@
   }
 }
 
+@layer components {
+  .navbar-visible {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  }
+
+  .navbar-hidden {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  }
+}
+
 @layer utilities {
   .justify_center {
     @apply flex items-center justify-center;

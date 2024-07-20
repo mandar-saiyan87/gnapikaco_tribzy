@@ -5,12 +5,12 @@ import { appimages } from '../../../assets/constants'
 function Section1() {
   return (
     <div className='w-full max-w-[1848px] bg-herobg mx-auto'>
-      <Navbar />
-      <div className='flex flex-col-reverse my-10 md:gap-y-10 lg:justify_center lg:flex-row xl:gap-x-10'>
-        <div className='w-full max-w-[920px] px-4 lg:px-12'>
+      {/* <Navbar /> */}
+      <div className='flex flex-col-reverse mb-10 md:gap-y-10 lg:justify_center lg:flex-row xl:gap-x-10'>
+        <div className='w-full max-w-[920px] px-4 lg:mt-10 lg:px-12'>
           <img src={appimages.heropng} alt="heroimg" className='w-full h-full object-fill' />
         </div>
-        <div className='flex flex-col items-center text-center'>
+        <div className='flex flex-col items-center text-center mt-8 lg:mt-0'>
           <div className='text-center w-full max-w-[75%]'>
             <p className='text-base font-semibold leading-7 text-primetext md:text-3xl md:leading-[50px] lg:font-bold xl:text-4xl xl:leading-[60px] 2xl:text-5xl 2xl:leading-[80px] '>Your New <span className='bg-[#EF9748] px-1'>Home</span> And <span className='bg-[#FFD600] px-1'>Community</span> Await with</p>
           </div>
